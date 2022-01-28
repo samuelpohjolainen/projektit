@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelit</title>
+    <link rel="stylesheet" href="/tyylit.css" type="text/css">
+</head>
+<body>
+    <main>
+        <h1>Kaikki Pelit</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Numero</th>
+                    <th>Nimi</th>
+                    <th>Lukumaara</th>
+                    <th>Arvostelu</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% tulos.forEach(peli=>{ %>
+                    <tr>
+                        <td><%= peli.numero %></td>
+                        <td><%= peli.nimi %></td>
+                        <td><%= peli.lukumaara %></td>
+                        <td><%= peli.arvostelu %></td>
+                        <td><%= peli.genre %></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+        <a href="/"><button>Valikko</button></a>
+    </main>
+    
+</body>
+</html>

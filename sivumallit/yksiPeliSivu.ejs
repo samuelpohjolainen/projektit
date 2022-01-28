@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= paaotsikko %></title>
+    <link rel="stylesheet" href="/tyylit.css" type="text/css">
+</head>
+<body>
+    <main>
+        <h1><%= otsikko %></h1>
+        <form action="<%= toiminto %>" method="POST">
+        <p>
+            <label>Numero:</label>
+            <input type="text" name="numero" size="5">
+        </p>
+        <button type="submit">Lähetä</button>
+    </form>
+    <a href="/"><button>Valikko</button></a>
+    </main>
+    
+</body>
+</html>

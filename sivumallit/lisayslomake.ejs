@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= paaotsikko %></title>
+    <link rel="stylesheet" href="/tyylit.css" type="text/css">
+</head>
+<body>
+    <main>
+        <h1><%= otsikko %></h1>
+        <form action="<%= toiminto %>" method='POST'>
+            <p>
+                <label>Numero</label>
+                <input type="text" name="numero" size="5"
+                value="<%= numero.value %>" <%= numero.readonly %> >   
+            </p>
+            <p>
+                <label>Nimi</label>
+                <input type="text" name="nimi" size="5"
+                value="<%= nimi.value %>" <%= nimi.readonly %> >
+            </p>
+            <p>
+                <label>Lukumaara</label>
+                <input type="text" name="lukumaara" size="5"
+                value="<%= lukumaara.value %>" <%= lukumaara.readonly %> >
+            </p>
+            <p>
+                <label>Arvostelu</label>
+                <input type="text" name="arvostelu" size="5"
+                value="<%= arvostelu.value %>" <%= arvostelu.readonly %> >
+            </p>
+            <p>
+                <label>Genre</label>
+                <input type="text" name="genre" size="5"
+                value="<%= genre.value %>" <%= genre.readonly %> >
+            </p>
+            <button type="submit">Lähetä</button>
+        </form>
+    </main>
+</body>
+</html>

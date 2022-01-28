@@ -1,0 +1,65 @@
+[
+    {
+        "numero": 4,
+        "nimi": "Tähtiseikkailu",
+        "lukumaara": 5,
+        "arvostelu": "*",
+        "genre": "strategia"
+    },
+    {
+        "numero": 2,
+        "nimi": "Unohdus 2000",
+        "lukumaara": 150,
+        "arvostelu": "*****",
+        "genre": "FPS"
+    },
+    {
+        "numero": 3,
+        "nimi": "Palapeli",
+        "lukumaara": 25,
+        "arvostelu": "***",
+        "genre": "seikkailu"
+    },
+    {
+        "numero": 1,
+        "nimi": "Imperiumin aika 2",
+        "lukumaara": 100,
+        "arvostelu": "*",
+        "genre": "lautapeli"
+    },
+    {
+        "numero": 5,
+        "nimi": "Leppis",
+        "lukumaara": 20,
+        "arvostelu": "****",
+        "genre": "älypeli"
+    },
+    {
+        "numero": 7,
+        "nimi": "Future 2025",
+        "lukumaara": 30,
+        "arvostelu": "**",
+        "genre": "tasohyppely"
+    },
+    {
+        "numero": 6,
+        "nimi": "x",
+        "lukumaara": 2000,
+        "arvostelu": "*",
+        "genre": "FPS"
+    },
+    {
+        "numero": 0,
+        "nimi": "ukkopekka",
+        "lukumaara": 123,
+        "arvostelu": "***",
+        "genre": "kauhu"
+    },
+    {
+        "numero": 123,
+        "nimi": "ukkopekka",
+        "lukumaara": 20000,
+        "arvostelu": "***",
+        "genre": "kauhu"
+    }
+]
